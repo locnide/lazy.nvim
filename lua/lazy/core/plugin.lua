@@ -339,6 +339,7 @@ function M.load()
   if lazy then
     lazy.lazy = true
     lazy.dir = Config.me
+    lazy.url = Config.lazy_url
     lazy.config = function()
       error("lazy config should not be called")
     end

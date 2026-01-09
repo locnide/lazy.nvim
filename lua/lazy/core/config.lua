@@ -262,6 +262,9 @@ M.options = {}
 M.me = nil
 
 ---@type string
+M.lazy_url = nil
+
+---@type string
 M.mapleader = nil
 
 ---@type string
